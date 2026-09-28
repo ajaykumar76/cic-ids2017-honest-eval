@@ -1,0 +1,7 @@
+split,model,precision,recall,f1,FPR
+Mon-Wed -> Thu-Fri (unseen attacks),RandomForest,0.9895,0.368,0.5364,0.0011
+Mon-Wed -> Thu-Fri (unseen attacks),XGBoost,0.9945,0.3774,0.5472,0.00058
+Mon-Wed -> Thu-Fri (unseen attacks),XGBoost (weighted),0.995,0.3777,0.5476,0.00053
+Ordered 70/30 within files,RandomForest,0.9864,0.9556,0.9708,0.00127
+Ordered 70/30 within files,XGBoost,0.9861,0.995,0.9906,0.00135
+Ordered 70/30 within files,XGBoost (weighted),0.9875,0.9749,0.9811,0.0012

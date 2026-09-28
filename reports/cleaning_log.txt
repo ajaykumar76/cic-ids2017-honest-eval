@@ -1,0 +1,33 @@
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv: (225745, 80)
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv: (286467, 80)
+Friday-WorkingHours-Morning.pcap_ISCX.csv: (191033, 80)
+Monday-WorkingHours.pcap_ISCX.csv: (529918, 80)
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv: (288602, 80)
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv: (170366, 80)
+Tuesday-WorkingHours.pcap_ISCX.csv: (445909, 80)
+Wednesday-workingHours.pcap_ISCX.csv: (692703, 80)
+
+Total rows loaded: 2830743
+Removed inf/NaN rows: 2867
+Removed duplicate rows: 329691
+Dropped constant columns: ['Bwd PSH Flags', 'Bwd URG Flags', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate']
+
+Final shape: (2498185, 72)
+
+Label counts:
+Label
+BENIGN                          2072444
+DoS Hulk                         172846
+DDoS                             128014
+PortScan                          90694
+DoS GoldenEye                     10286
+FTP-Patator                        5931
+DoS slowloris                      5385
+DoS Slowhttptest                   5228
+SSH-Patator                        3219
+Bot                                1948
+Web Attack � Brute Force         1470
+Web Attack � XSS                  652
+Infiltration                         36
+Web Attack � Sql Injection         21
+Heartbleed                           11

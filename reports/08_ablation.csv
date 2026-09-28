@@ -1,0 +1,7 @@
+split,features,precision,recall,f1,FPR
+Mon-Wed -> Thu-Fri,all features,0.9945,0.3774,0.5472,0.00058
+Mon-Wed -> Thu-Fri,no Destination Port,0.9929,0.3101,0.4727,0.00063
+Mon-Wed -> Thu-Fri,no port/window/min_seg,0.964,0.3764,0.5414,0.00397
+Ordered 70/30,all features,0.9861,0.995,0.9906,0.00135
+Ordered 70/30,no Destination Port,0.9664,0.9628,0.9646,0.00324
+Ordered 70/30,no port/window/min_seg,0.7851,0.9934,0.8771,0.02633
